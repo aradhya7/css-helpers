@@ -1,0 +1,26 @@
+karthik{
+	font-size: 30px;
+	color: green;
+	background: #ccc;
+	padding: 10px;
+	text-align: center;
+	display: block;
+}
+
+.myName{
+	letter-spacing: 10px;
+	visibility: visible;
+	animation-name: kar;
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in;
+}
+
+@keyframes kar{
+	form{
+		color: green;
+	}
+	to{
+        color: #ccc;
+	}
+}

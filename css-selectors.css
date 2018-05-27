@@ -1,0 +1,14 @@
+body>div{
+	background:blue;
+	padding: 5px;
+}
+
+div>div{
+	background:red;
+	padding: 10px;
+	margin-bottom: 5px;
+}
+
+div>div:last-child{
+  margin-bottom: 0px;
+}
